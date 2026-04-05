@@ -2,6 +2,7 @@
 Count how many cars have pass by
 
 A. Your approach to solving the task.
+
 For my approach is using "YOLOv8" to identify cars. Then each deteched object will be assigned with an ID. The objects are match frame to frame based on proximity. Then there will be a vertical line is place oin the middle of the frame then when a car have crosses the line and it will only count once when cross.
 
 B. Technologies and tools used.
